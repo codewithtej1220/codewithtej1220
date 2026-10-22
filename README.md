@@ -20,7 +20,7 @@
 ## About Me
 
 ```python
-class Bhanuteja:
+class Amula Bhanuteja:
     university = "JNTUH, B.Tech in Computer Science & Engineering"
     focus      = ["LLM and agent reliability", "Computer vision", "Real-time systems", "Applied ML for decisions"]
     building   = "Observability and intervention for LLM agents that fail silently"
