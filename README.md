@@ -1,4 +1,4 @@
-<img src="assets/hero.svg" width="100%" alt="Amula Bhanuteja, AI systems engineer. Now building P.H.O.E.N.I.X., a local voice operator."/>
+[<img src="assets/hero.svg" width="100%" alt="Amula Bhanuteja, AI systems engineer. Now building P.H.O.E.N.I.X., a local voice operator."/>
 
 <p align="center">
   <a href="https://amula-bhanuteja.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0B1117?style=for-the-badge&logo=vercel&logoColor=5EEAD4&labelColor=0B1117" alt="Portfolio"/></a>
@@ -310,3 +310,4 @@ flowchart LR
 <br/>
 
 <img src="assets/footer.svg" width="100%" alt="If it can't be measured, traced, or replayed, it isn't finished."/>
+](https://github.com/codewithtej1220/codewithtej1220.git)
