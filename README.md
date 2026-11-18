@@ -1,4 +1,4 @@
-[<img src="assets/hero.svg" width="100%" alt="Amula Bhanuteja, AI systems engineer. Now building P.H.O.E.N.I.X., a local voice operator."/>
+<img src="assets/hero.svg" width="100%" alt="Amula Bhanuteja, AI systems engineer. Now building P.H.O.E.N.I.X., a local voice operator."/>
 
 <p align="center">
   <a href="https://amula-bhanuteja.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0B1117?style=for-the-badge&logo=vercel&logoColor=5EEAD4&labelColor=0B1117" alt="Portfolio"/></a>
@@ -42,60 +42,34 @@ ML and AI-systems internships, research collaborations, hackathon teams
 
 <img src="assets/section-01.svg" width="100%" alt="01. Flagship, in progress"/>
 
-<img src="assets/phoenix-console.svg" width="100%" alt="Sample P.H.O.E.N.I.X. session"/>
+<img src="assets/phoenix-teaser.svg" width="100%" alt="P.H.O.E.N.I.X.: a private, voice-first AI assistant. In private development."/>
 
-<h3><img src="assets/phoenix-logo.png" height="34" align="absmiddle" alt=""/> &nbsp;P.H.O.E.N.I.X. &nbsp;<sub>A private, voice-first AI operator that runs entirely on my laptop</sub></h3>
+<h3><img src="assets/phoenix-logo.png" height="34" align="absmiddle" alt=""/> &nbsp;P.H.O.E.N.I.X. &nbsp;<sub>A private, voice-first AI assistant that lives on your own machine</sub></h3>
 
-<sub><b>Personal Hyper-intelligent Operations &amp; Engineering Network for Intelligent eXecution.</b></sub>
-
-Say *"Hey Phoenix"*, and a full-screen particle HUD wakes up, transcribes you locally, reasons with an open model on a 6 GB laptop GPU, acts through **72 tools**, and speaks back. It is about **7,900 lines of Python** plus a WebGL HUD, designed and built by me. The hard part was never getting an assistant to *do* things. It was making it **safe to let it**.
-
-```mermaid
-flowchart LR
-    W["'Hey Phoenix'<br/>VAD + Whisper<br/>hotword check"] --> S["faster-whisper<br/>local speech-to-text"]
-    S --> B["Phoenix core + Ollama<br/>Qwen3 8B on RTX 4050"]
-    P["Phone<br/>Tailscale / Telegram<br/>paired devices"] --> G
-    B --> G{"Security gate<br/>READ / LOCAL /<br/>EXTERNAL / DANGER"}
-    G --> T["72 tools<br/>apps, files, media,<br/>timers, PC health"]
-    G --> M["MCP plugins<br/>fingerprint-approved"]
-    G --> C["Claude Code bridge<br/>sandboxed build tasks"]
-    G --> D["Vercel deploys<br/>secret-scanned"]
-    G --> A[("Hash-chained<br/>audit log")]
-    B --> V["Kokoro / Piper TTS"] --> H["Full-screen HUD"]
-```
+Most AI assistants listen for someone else's cloud. **Phoenix doesn't.** You talk, it gets real work done on your computer, and nothing you say ever leaves the device. It's designed so that anything risky always waits for your approval.
 
 <table>
 <tr>
-<th width="50%" align="left">What it does</th>
-<th width="50%" align="left">How it stays safe</th>
-</tr>
-<tr>
-<td valign="top">
+<td width="50%" valign="top">
 
-- **Custom wake word:** "Hey Phoenix" has no off-the-shelf model, so short speech bursts are cut out by voice-activity detection and confirmed by an on-device Whisper pass biased toward the word, with a pretrained wake-word model as a backup
-- **Runs my PC by voice:** apps, files, windows, media, volume, brightness, timers, reminders, notes and screenshots
-- **Career agent:** pulls internships from official Greenhouse, Lever and Ashby APIs, ranks them against my résumé and tracks applications. It never applies on my behalf
-- **Learning coach:** day-by-day study plans, spoken lessons, voice quizzes with spaced repetition and a radar over Hacker News, arXiv and GitHub
-- **Engineering co-pilot:** detects a project's type, checkpoints it, runs its tests, previews it and deploys it, and hands build tasks to Claude Code
-- **Watches my other systems:** live CPU/GPU health with safe fixes, and a supervisor that reads my Agent Observability dashboard and reports spikes
-- **Quantum lab:** a 12-qubit statevector simulator with Bloch vectors drawn in the HUD
+- **Voice-first:** a custom "Hey Phoenix" wake word, then natural conversation
+- **Gets things done:** dozens of built-in skills across your PC, your projects and your day
+- **Learns with you:** study plans, spoken lessons and quizzes
+- **Works where you are:** a private companion on your phone
 
 </td>
 <td valign="top">
 
-- **Four risk tiers** on every tool. Deleting, deploying or publishing needs a **physical click**, so a voice in a video can't approve it
-- **Prompt-injection guard:** once web pages, clipboard, screen or plugin output are in play, the gate tightens automatically
-- **Tamper-evident audit log:** each entry carries the SHA-256 of the previous one, so any edit breaks the chain
-- **Secrets never touch files or the model:** keys live in Windows Credential Manager and are injected only into the process that needs them
-- **Plugins are approved by fingerprint:** if a plugin's config or code changes, it goes back to "needs approval"
-- **Phone access is private:** Tailscale only, with 6-digit pairing, 256-bit device tokens and lockouts after wrong codes
-- **Audio never leaves the laptop**
+- **100% local:** runs on an everyday laptop GPU, no subscriptions
+- **Secure by design:** layered permissions, and nothing risky runs without you
+- **Tamper-evident:** every action is recorded
+- **Built to grow:** new skills plug straight in
 
 </td>
 </tr>
 </table>
 
-<p><sub><b>STACK</b> &nbsp; <code>Ollama</code> <code>Qwen3 8B</code> <code>faster-whisper</code> <code>openWakeWord + VAD</code> <code>Kokoro / Piper TTS</code> <code>MCP (JSON-RPC)</code> <code>Claude Code</code> <code>Tailscale</code> <code>SQLite</code> <code>WebGL</code> <code>Win32 APIs</code></sub></p>
+<sub><b>STATUS</b> &nbsp; In private development. The source is closed for now; a live demo is available on request.</sub>
 
 <br/>
 
@@ -262,11 +236,11 @@ flowchart LR
 |:--|:--|:--|
 | **Languages** | Python, TypeScript, SQL | JavaScript, Java, C, C++, R, Dart, HTML5, CSS3 |
 | **Machine learning** | PyTorch, scikit-learn, XGBoost | LightGBM, TensorFlow, SHAP, NumPy, Pandas, HDBSCAN, IsolationForest, k-NN, uplift modelling, demand forecasting, contextual bandits |
-| **Vision and audio** | YOLOv11, SAHI, OpenCV, MediaPipe | DeepFace / FaceNet, head-pose estimation, thermal imagery, Whisper, faster-whisper, Librosa, openWakeWord, Kokoro and Piper TTS |
-| **LLMs and agents** | OpenAI, Claude and Gemini APIs, MCP, Ollama | RAG, LLM-as-judge, prompt engineering, Claude Code automation, Hindsight, Hugging Face |
+| **Vision and audio** | YOLOv11, SAHI, OpenCV, MediaPipe | DeepFace / FaceNet, head-pose estimation, thermal imagery, Whisper, Librosa |
+| **LLMs and agents** | OpenAI, Claude and Gemini APIs, MCP, Ollama | RAG, LLM-as-judge, prompt engineering, Hindsight, Hugging Face |
 | **Backend and real-time** | FastAPI, WebSockets, PostgreSQL | Node.js, Express, Socket.IO, REST, JWT, RBAC, Celery, Redis, SQLAlchemy, Alembic, MySQL, SQLite |
 | **Frontend** | React, Next.js, Tailwind CSS | three.js, WebGL, Monaco, React Flow, Chart.js, shadcn/ui, Vite, Flutter |
-| **Infrastructure** | Docker, GitHub Actions, Vercel | Docker Compose, Jenkins, Render, Tailscale, Google Cloud (Vertex AI, BigQuery), NVIDIA CUDA |
+| **Infrastructure** | Docker, GitHub Actions, Vercel | Docker Compose, Jenkins, Render, Google Cloud (Vertex AI, BigQuery), NVIDIA CUDA |
 | **Simulation and science** | Microsoft AirSim, Unreal Engine | Qiskit, Cirq, PennyLane, Tree-sitter parsing and instrumentation |
 | **Tools** | Git, GitHub, VS Code | Google Colab, Jupyter, Anaconda, PowerShell |
 
@@ -301,7 +275,7 @@ flowchart LR
 
 <img src="assets/section-07.svg" width="100%" alt="07. Now"/>
 
-- **P.H.O.E.N.I.X.:** tuning the new wake word, hardening the security gate and moving more skills into MCP plugins
+- **P.H.O.E.N.I.X.:** in private development, with more skills on the way
 - **HawkEye AI:** upgrading detection for **distant people**, targets only a few pixels tall in high-altitude thermal frames
 - **Agent Observability:** moving from simulated runs to real production agent traces
 - **QuantaVerse:** more graded labs and noise-model simulation
@@ -310,4 +284,3 @@ flowchart LR
 <br/>
 
 <img src="assets/footer.svg" width="100%" alt="If it can't be measured, traced, or replayed, it isn't finished."/>
-](https://github.com/codewithtej1220/codewithtej1220.git)

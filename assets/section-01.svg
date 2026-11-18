@@ -13,7 +13,7 @@
   <text x="40" y="60" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="34" font-weight="700" fill="none" stroke="#5EEAD4" stroke-width="1.2">01</text>
   <line x1="118" y1="26" x2="118" y2="66" stroke="#1E2935"/>
   <text x="142" y="58" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="-.4" fill="#FFFFFF">Flagship, in progress</text>
-  <text x="1160" y="54" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" letter-spacing="2.2" fill="#5B6878">P.H.O.E.N.I.X.  /  LOCAL VOICE OPERATOR</text>
+  <text x="1160" y="54" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" letter-spacing="2.2" fill="#5B6878">P.H.O.E.N.I.X.  /  IN PRIVATE DEVELOPMENT</text>
   <rect x="142" y="72" width="0" height="2" rx="1" fill="#5EEAD4"><animate attributeName="width" values="0;120;120" keyTimes="0;.3;1" dur="4s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;0" keyTimes="0;.7;1" dur="4s" repeatCount="indefinite"/></rect>
   <rect x="-400" y="0" width="400" height="92" fill="url(#sweep)">
     <animate attributeName="x" values="-400;1200" dur="8s" repeatCount="indefinite"/>
