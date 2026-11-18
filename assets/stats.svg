@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="176" viewBox="0 0 1200 176" role="img" aria-label="1st of 45 teams at TCS Tech Day; F0.5 0.992 at Amazon ML Challenge 2026; 97.3% precision on agent failures; 265 ms thermal frame to dashboard">
+<defs>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#131A23" stroke-width="1"/></pattern>
+  <radialGradient id="glow" cx="50%" cy="50%" r="45%"><stop offset="0" stop-color="#16C2B0" stop-opacity=".08"/><stop offset="1" stop-color="#16C2B0" stop-opacity="0"/></radialGradient>
+  <linearGradient id="sweep" x1="0" x2="1"><stop offset="0" stop-color="#5EEAD4" stop-opacity="0"/><stop offset=".5" stop-color="#5EEAD4" stop-opacity=".10"/><stop offset="1" stop-color="#5EEAD4" stop-opacity="0"/></linearGradient>
+  <linearGradient id="name" x1="0" x2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#8FF0E3"/></linearGradient>
+  <clipPath id="frame"><rect width="1200" height="176" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#frame)">
+  <rect width="1200" height="176" fill="#07090D"/>
+  <rect width="1200" height="176" fill="url(#grid)"/>
+  <rect width="1200" height="176" fill="url(#glow)"/>
+  <rect x="0" y="0" width="1200" height="3" fill="#16C2B0" opacity=".7"/>
+  <line x1="300" y1="34" x2="300" y2="146" stroke="#1E2935"/>
+  <line x1="600" y1="34" x2="600" y2="146" stroke="#1E2935"/>
+  <line x1="900" y1="34" x2="900" y2="146" stroke="#1E2935"/>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.0s" dur=".7s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" begin="0.0s" dur=".7s" fill="freeze"/>
+    <text x="150" y="76" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="-1" fill="#FFFFFF">1st<tspan font-size="24" fill="#5EEAD4"></tspan></text>
+    <text x="150" y="106" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" fill="#C3CCD7">of 45 teams, TCS Tech Day</text>
+    <text x="150" y="128" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" letter-spacing="1.8" fill="#5B6878">PROMOFORGE / JNTUH</text>
+    <rect x="60" y="146" width="180" height="3" rx="1.5" fill="#1E2935"/>
+    <rect x="60" y="146" width="0" height="3" rx="1.5" fill="#5EEAD4"><animate attributeName="width" from="0" to="180" begin="0.3s" dur="1.4s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1" keyTimes="0;1"/></rect>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.2s" dur=".7s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" begin="0.2s" dur=".7s" fill="freeze"/>
+    <text x="450" y="76" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="-1" fill="#FFFFFF">0.992<tspan font-size="24" fill="#5EEAD4"></tspan></text>
+    <text x="450" y="106" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" fill="#C3CCD7">F0.5 on entity resolution</text>
+    <text x="450" y="128" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" letter-spacing="1.8" fill="#5B6878">AMAZON ML CHALLENGE 2026</text>
+    <rect x="360" y="146" width="180" height="3" rx="1.5" fill="#1E2935"/>
+    <rect x="360" y="146" width="0" height="3" rx="1.5" fill="#5EEAD4"><animate attributeName="width" from="0" to="179" begin="0.5s" dur="1.4s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1" keyTimes="0;1"/></rect>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.4s" dur=".7s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" begin="0.4s" dur=".7s" fill="freeze"/>
+    <text x="750" y="76" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="-1" fill="#FFFFFF">97.3<tspan font-size="24" fill="#5EEAD4">%</tspan></text>
+    <text x="750" y="106" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" fill="#C3CCD7">precision on agent failures</text>
+    <text x="750" y="128" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" letter-spacing="1.8" fill="#5B6878">AGENT OBSERVABILITY</text>
+    <rect x="660" y="146" width="180" height="3" rx="1.5" fill="#1E2935"/>
+    <rect x="660" y="146" width="0" height="3" rx="1.5" fill="#5EEAD4"><animate attributeName="width" from="0" to="175" begin="0.7s" dur="1.4s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1" keyTimes="0;1"/></rect>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.6s" dur=".7s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" begin="0.6s" dur=".7s" fill="freeze"/>
+    <text x="1050" y="76" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="-1" fill="#FFFFFF">265<tspan font-size="24" fill="#5EEAD4"> ms</tspan></text>
+    <text x="1050" y="106" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" fill="#C3CCD7">thermal frame to dashboard</text>
+    <text x="1050" y="128" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" letter-spacing="1.8" fill="#5B6878">HAWKEYE AI</text>
+    <rect x="960" y="146" width="180" height="3" rx="1.5" fill="#1E2935"/>
+    <rect x="960" y="146" width="0" height="3" rx="1.5" fill="#5EEAD4"><animate attributeName="width" from="0" to="133" begin="0.9s" dur="1.4s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1" keyTimes="0;1"/></rect>
+  </g>
+  <rect x="-400" y="0" width="400" height="176" fill="url(#sweep)">
+    <animate attributeName="x" values="-400;1200" dur="9s" repeatCount="indefinite"/>
+  </rect>
+</g>
+<rect x=".5" y=".5" width="1199" height="175" rx="18" fill="none" stroke="#1E2935"/>
+</svg>
