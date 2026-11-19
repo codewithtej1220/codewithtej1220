@@ -1,8 +1,8 @@
 <img src="assets/hero.svg" width="100%" alt="Amula Bhanuteja, AI systems engineer. Now building P.H.O.E.N.I.X., a local voice operator."/>
 
 <p align="center">
-  <a href="https://amula-bhanuteja.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0B1117?style=for-the-badge&logo=vercel&logoColor=5EEAD4&labelColor=0B1117" alt="Portfolio"/></a>
-  <a href="https://amula-bhanuteja.vercel.app/resume.pdf"><img src="https://img.shields.io/badge/R%C3%A9sum%C3%A9-0B1117?style=for-the-badge&logo=readthedocs&logoColor=5EEAD4&labelColor=0B1117" alt="Résumé"/></a>
+  <a href="https://amula-bhanuteja-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0B1117?style=for-the-badge&logo=vercel&logoColor=5EEAD4&labelColor=0B1117" alt="Portfolio"/></a>
+  <a href="https://amula-bhanuteja-portfolio.vercel.app/resume.pdf"><img src="https://img.shields.io/badge/R%C3%A9sum%C3%A9-0B1117?style=for-the-badge&logo=readthedocs&logoColor=5EEAD4&labelColor=0B1117" alt="Résumé"/></a>
   <a href="https://www.linkedin.com/in/bhanuteja-amula-codewithtej1220"><img src="https://img.shields.io/badge/LinkedIn-0B1117?style=for-the-badge&logo=linkedin&logoColor=5EEAD4&labelColor=0B1117" alt="LinkedIn"/></a>
   <a href="mailto:bhanuteja.amula@gmail.com"><img src="https://img.shields.io/badge/Email-0B1117?style=for-the-badge&logo=gmail&logoColor=5EEAD4&labelColor=0B1117" alt="Email"/></a>
 </p>
@@ -20,6 +20,8 @@
 My pattern is to build the instrument that shows what is really happening, measure it on held-out data, and then build the system that acts on it.
 
 **Mission:** HawkEye AI, thermal surveillance aimed at India's border and perimeter security.
+
+**My personal AI assistant:** Phoenix, a private, voice-first assistant I designed and built, which runs entirely on my own laptop.
 
 </td>
 <td width="38%" valign="top">
